@@ -12,6 +12,7 @@
         <module>tournament-service</module>
         <module>eureka-server</module>
         <module>team</module>
+        <module>match</module>
     </modules>
 
 </project>
