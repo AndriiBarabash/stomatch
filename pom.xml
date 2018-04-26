@@ -11,6 +11,7 @@
     <modules>
         <module>tournament-service</module>
         <module>eureka-server</module>
+        <module>team</module>
     </modules>
 
 </project>
