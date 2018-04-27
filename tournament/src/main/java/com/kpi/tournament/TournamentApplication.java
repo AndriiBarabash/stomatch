@@ -1,4 +1,4 @@
-package com.kpi.team;
+package com.kpi.tournament;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class TeamApplication {
+public class TournamentApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(TeamApplication.class, args);
+        SpringApplication.run(TournamentApplication.class, args);
     }
 }

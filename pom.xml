@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>tournament-service</module>
-        <module>eureka-server</module>
+        <module>tournament</module>
+        <module>discoveryserver</module>
         <module>team</module>
         <module>match</module>
     </modules>
