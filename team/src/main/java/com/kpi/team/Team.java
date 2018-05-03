@@ -65,6 +65,10 @@ public class Team {
 
     Team() { }
 
+    public Team(Integer id) {
+        this.id = id;
+    }
+
     Team(Integer id, String TeamName, String TeamTag, List<Player> TeamPlayers, String Country, String Coach){
         this.id = id;
         this.TeamName = TeamName;

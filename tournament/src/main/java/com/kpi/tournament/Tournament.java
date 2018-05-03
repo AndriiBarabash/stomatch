@@ -1,5 +1,7 @@
 package com.kpi.tournament;
 
+import com.kpi.team.Team;
+
 import java.util.Date;
 import java.util.List;
 
@@ -9,7 +11,7 @@ public class Tournament {
     private Date beginDate;
     private Date endDate;
     private String country;
-    private List<Long> teams;
+    private List<Team> teams;
 
     Tournament() {}
 
@@ -25,11 +27,11 @@ public class Tournament {
         this.name = name;
     }
 
-    public List<Long> getTeams() {
+    public List<Team> getTeams() {
         return teams;
     }
 
-    public void setTeams(List<Long> teamList) {
+    public void setTeams(List<Team> teamList) {
         this.teams = teamList;
     }
 
