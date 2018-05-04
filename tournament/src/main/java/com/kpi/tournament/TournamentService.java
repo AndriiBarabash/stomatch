@@ -18,12 +18,14 @@ public class TournamentService {
     static {
         Tournament starLadder = new Tournament(1L);
         List<Team> starLadderTeams = new ArrayList<>();
+        starLadderTeams.add(new Team(0));
         starLadderTeams.add(new Team(1));
         starLadder.setTeams(starLadderTeams);
         starLadder.setName("StarLadder Season VI");
 
         Tournament bostonMajor = new Tournament(2L);
         List<Team> bostonTeams = new ArrayList<>();
+        bostonTeams.add(new Team(1));
         bostonTeams.add(new Team(2));
         bostonMajor.setTeams(bostonTeams);
         bostonMajor.setName("Boston Major");

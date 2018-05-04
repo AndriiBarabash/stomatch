@@ -11,7 +11,6 @@ import java.util.List;
  * Created by AndrewB on 27.04.18.
  */
 
-@EnableFeignClients
 @RestController
 public class TournamentController {
 

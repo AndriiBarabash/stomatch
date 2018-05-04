@@ -51,7 +51,7 @@ public class Match {
     }
 
     public int getTeam2ID() {
-        return team1ID;
+        return team2ID;
     }
 
     public void setTeam2ID(int team2ID) {
