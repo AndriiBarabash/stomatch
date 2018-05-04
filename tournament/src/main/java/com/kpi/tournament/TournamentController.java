@@ -2,6 +2,7 @@ package com.kpi.tournament;
 
 import com.kpi.team.Team;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -9,7 +10,6 @@ import java.util.List;
 /**
  * Created by AndrewB on 27.04.18.
  */
-
 
 @RestController
 public class TournamentController {
