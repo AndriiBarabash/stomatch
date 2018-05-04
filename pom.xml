@@ -13,6 +13,7 @@
         <module>discoveryserver</module>
         <module>team</module>
         <module>match</module>
+        <module>configserver</module>
     </modules>
 
 </project>
